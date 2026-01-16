@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use App\Models\Concerns\BelongsToTenant;
 
-class client extends Model
+class Client extends Model
 {
     use HasUuids, BelongsToTenant;
 
